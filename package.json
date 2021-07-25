@@ -1,0 +1,15 @@
+{
+  "name": "discord-remindme",
+  "version": "1.0.0",
+  "description": "Discord-bot built for [wunderbaerlive](https://www.twitch.tv/wunderbaerlive) using [Heroku](https://dashboard.heroku.com) as a provider.   Notifies a specific discord-channel if a specific YouTube- or twitch-channel goes live or the twtich-channel plays a VODcast using both a plain text-message with a highlight-clip and a [Discord embed message](https://discordapp.com/developers/docs/resources/channel#embed-object).",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.5.3",
+    "moment": "^2.29.1"
+  }
+}
